@@ -1,0 +1,20 @@
+html{
+  /**
+   **/
+	/* This image will be displayed fullscreen */
+	background:url('background.jpg') no-repeat center center;
+	/* Ensure the html element always takes up the full height of the browser window */
+	min-height:100%;
+	/* The Magic */
+	background-size:cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+	/* Workaround for some mobile browsers */
+	min-height:100%;
+}
+
+h1 {
+  color: #302A07;
+}
